@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Rock-Paper-Scissor</string>
+    <string name="rock_paper_scissors">Rock Paper Scissors</string>
+    <string name="todo">TODO</string>
 </resources>
