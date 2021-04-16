@@ -1,5 +1,17 @@
 <resources>
     <string name="app_name">Rock-Paper-Scissor</string>
     <string name="rock_paper_scissors">Rock Paper Scissors</string>
+    <string name="coin_game">Coin Game</string>
+    <string name="credits">Credits</string>
     <string name="todo">TODO</string>
+    <string name="reset">Reset</string>
+    <string name="user">User</string>
+    <string name="_0_0">0:0</string>
+    <string name="comp">Comp</string>
+    <string name="rock">Rock</string>
+    <string name="paper">Paper</string>
+    <string name="won_lost_tie">Won - Lost - Tie</string>
+    <string name="jos_miguel_jaraba_serpa">José Miguel Jaraba Serpa</string>
+    <string name="juan_manuel_zuluaga_fern_ndez">Juan Manuel Zuluaga Fernández</string>
+    <string name="flip">Flip</string>
 </resources>

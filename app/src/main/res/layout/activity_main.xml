@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-</RelativeLayout>
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/menuIcon"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/menu_icon"
+        android:contentDescription="@string/todo">
+    </ImageView>
+
+    <Button
+        android:id="@+id/menuRpsButton"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="@string/rock_paper_scissors">
+    </Button>
+
+    <Button
+        android:id="@+id/menuCoinButton"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="@string/coin_game">
+    </Button>
+
+    <Button
+        android:id="@+id/menuCreditsButton"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="@string/credits">
+    </Button>
+
+</LinearLayout>
