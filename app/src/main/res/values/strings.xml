@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Rock-Paper-Scissor</string>
+    <string name="app_name">JJ Games</string>
     <string name="rock_paper_scissors">Rock Paper Scissors</string>
     <string name="coin_game">Coin Game</string>
     <string name="credits">Credits</string>
