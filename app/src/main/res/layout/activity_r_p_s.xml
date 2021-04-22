@@ -26,7 +26,7 @@
         android:layout_marginRight="15dp"
         android:backgroundTint="#495057"
         android:onClick="resetButton"
-        android:text="@string/reset"></Button>
+        android:text="@string/reset" />
 
     <LinearLayout
         android:layout_width="300dp"
@@ -44,7 +44,7 @@
             android:text="@string/user"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textSize="32sp"></TextView>
+            android:textSize="32sp" />
 
         <TextView
             android:id="@+id/rpsScoreText"
@@ -54,7 +54,7 @@
             android:text="@string/_0_0"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textSize="32sp"></TextView>
+            android:textSize="32sp" />
 
         <TextView
             android:id="@+id/rpsCompText"
@@ -64,7 +64,7 @@
             android:text="@string/comp"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textSize="32sp"></TextView>
+            android:textSize="32sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -121,7 +121,7 @@
             android:onClick="rpsButtonSelected"
             android:scaleType="fitCenter"
             android:src="@drawable/rock"
-            android:tag="1"></ImageButton>
+            android:tag="1" />
 
         <ImageButton
             android:id="@+id/rpsPaperImage"
@@ -133,7 +133,7 @@
             android:onClick="rpsButtonSelected"
             android:scaleType="fitCenter"
             android:src="@drawable/paper"
-            android:tag="2"></ImageButton>
+            android:tag="2" />
 
         <ImageButton
             android:id="@+id/rpsScissorImage"
@@ -144,7 +144,7 @@
             android:onClick="rpsButtonSelected"
             android:scaleType="fitCenter"
             android:src="@drawable/scissors"
-            android:tag="3"></ImageButton>
+            android:tag="3" />
     </LinearLayout>
 
 </LinearLayout>

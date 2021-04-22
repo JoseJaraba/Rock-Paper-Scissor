@@ -38,7 +38,7 @@ public class MainActivity extends Activity {
         coinButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, CoinActivity.class);
+                Intent intent = new Intent(MainActivity.this, SplashCoinActivity.class);
                 startActivity(intent);
             }
         });
