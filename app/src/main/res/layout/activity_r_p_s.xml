@@ -24,7 +24,7 @@
         android:layout_marginLeft="15dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="15dp"
-        android:backgroundTint="#495057"
+        android:backgroundTint="#03071E"
         android:onClick="resetButton"
         android:text="@string/reset" />
 
