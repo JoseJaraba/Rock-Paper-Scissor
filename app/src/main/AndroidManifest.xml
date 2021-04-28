@@ -11,9 +11,9 @@
         android:theme="@style/Theme.RockPaperScissor">
         <activity android:name=".SplashCoinActivity"></activity>
         <activity android:name=".MainActivity" />
-        <activity android:name=".CreditsActivity" />
-        <activity android:name=".CoinActivity" />
-        <activity android:name=".RPSActivity" />
+        <activity android:name=".CreditsActivity" android:parentActivityName=".MainActivity" />
+        <activity android:name=".CoinActivity"  android:parentActivityName=".MainActivity" />
+        <activity android:name=".RPSActivity" android:parentActivityName=".MainActivity" />
         <activity
             android:name=".SplashMainActivity"
             android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
